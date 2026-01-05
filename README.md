@@ -2,14 +2,13 @@
 
 Simple numerical simulation of an ideal LCR Tank Oscillator using Euler numerical methods (for Fun!)
 
+<img width="702" height="390" alt="image" src="https://github.com/user-attachments/assets/f5c47f89-c9fa-44e6-8e50-7b134940cfca" />
+
 There are also simulations of Charging and Discharging a Capacitor (RC).
 
 This was an attempt to simulate the circuits using first principles and fundemental techniques for fun to see how much I could remember from my University electronics and numerical methods lectures, I am fairly happy with the results, the LCR simulation is stable at low frequencies but it shows problems at audio frequencies, I probably need to refine it using a more sophisticated numerical method like RK2 or RK4.
 
-<img width="702" height="390" alt="image" src="https://github.com/user-attachments/assets/f5c47f89-c9fa-44e6-8e50-7b134940cfca" />
-
 The second order ODE for the LCR circuit is broken into two first order ODEs and solved iteratively:
-
 ```
 // Kirchhoff's Current Law
 // Il = Ir = Ic = I
