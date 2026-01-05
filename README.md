@@ -36,6 +36,9 @@ The second order ODE for the LCR circuit is broken into two first order ODEs and
 Each simulation function outputs to a CSV which can then be loaded into Octave for analysis and visualisation.
 
 **lcr_sim()** - Simple simulation of an ideal RCL oscillator.
+
 **lc_sim()** - Simulation of an LC Tank Oscillator.
+
 **rc_charge_sim()** - Simulation of a capacitor charging through a resistor.
+
 **rc_discharge_sim()** - Simulation of a charged capacitor discharging through a resistor.
